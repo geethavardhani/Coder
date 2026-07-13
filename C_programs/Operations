@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    int x=10;
+    printf("Initial value:%d\n",x);
+    x+=9;
+        printf("Initial value now is :%d\n",x);
+        x-=7;
+    printf("Initial value now is :%d\n",x);
+x*=8;
+    printf("Initial value now is :%d\n",x);
+    x/=5;
+    printf("Initial value now is:%d\n",x);
+
+return 0;
+}

@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+    int x=5;
+    printf("x=%d\n",x);
+        printf("Pre increment=%d\n",++x);
+    printf("After Pre increment=%d\n",x);
+    printf("Post increment=%d\n",x++);
+    printf("After Post increment=%d\n",x);
+
+return 0;
+}

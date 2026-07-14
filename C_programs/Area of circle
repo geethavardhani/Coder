@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float pi=3.1416;
+    int r;
+    printf("Enter the value of r\n");
+    scanf("%d",&r);
+
+    printf("The area of circle is %f",pi*r*r);
+    return 0;
+}

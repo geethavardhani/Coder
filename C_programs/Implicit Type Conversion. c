@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+    int a=10;
+    char b='A';//ASCII value of 'A' is 65
+    float c=3.14;
+    
+    float result=a+b+c; // Implicit conversion from int to float
+    printf("Value of result: %f\n", result);
+    return 0;
+}

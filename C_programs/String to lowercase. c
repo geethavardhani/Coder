@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[] = {"C PROGRAMMING"};
+    strlwr(a);
+    printf("Lowercase string: %s", a);
+    return 0;
+}

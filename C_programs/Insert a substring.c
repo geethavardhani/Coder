@@ -2,9 +2,9 @@
 #include <string.h>
 void insertString(char mainStr[], char subStr[], int pos)
 {
- char temp[200];
+ char temp[100];
  int i, j, len;
- len = strlen(mainStr);
+ strlen(mainStr);
  for (i = 0; i < pos; i++)
  temp[i] = mainStr[i];
  for (j = 0; subStr[j] != '\0'; j++)

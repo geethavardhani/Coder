@@ -25,7 +25,7 @@ I am using this space to practice problem-solving, strengthen my logic building,
    (On Windows, use **output.exe**)
    *Maintained by M.Geetha Vardhani*
 ### How to add or update it on GitHub:
-1. Open your `Coder` repository[span_1](start_span)[span_1](end_span) on GitHub.
+1. Open your `Coder` repository https://github.com/geethavardhani/Coder on GitHub.
 2. Click on your existing `README.md` file and click the **pencil icon (Edit this file)** in the top-right corner (or click **Add file > Create new file** and name it `README.md` if you haven't created it yet).
 3. Paste the text above, customize the topics list to match your syllabus, and click **Commit changes**.
    

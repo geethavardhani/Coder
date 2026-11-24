@@ -1,0 +1,29 @@
+/* Experiment 20 – Count Lines, Words and Characters */
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+ char ch;
+ int lines = 0, words = 0, characters = 0;
+ int inWord = 0;
+ printf("Enter text (press Ctrl+D on Linux/macOS or Ctrl+Z on Windows to end):\n");
+ while ((ch = getchar()) != EOF)
+ {
+ characters++;
+ if (ch == '\n')
+ lines++;
+ if (isspace(ch))
+ {
+ inWord = 0;
+ }
+ else if (inWord == 0)
+ {
+ words++;
+ inWord = 1;
+ }
+ }
+ printf("\nLines = %d\n", lines);
+ printf("Words = %d\n", words);
+ printf("Characters = %d\n", characters);
+ return 0;
+}
